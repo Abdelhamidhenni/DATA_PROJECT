@@ -1,0 +1,1589 @@
+@font-face{
+  font-family: 'Lato';
+  src:url(../../fonts/Lato-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Lato';
+  src:url(../../fonts/Lato-Bold.ttf);
+  font-weight: 600;
+  font-style: bold;
+}
+
+@font-face{
+  font-family: 'Lato';
+  src:url(../../fonts/Lato-Light.ttf);
+  font-weight: 400;
+  font-style: lighter;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.toggle-fs{
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+}
+
+.fc2_container{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.no-p-right{
+  padding-right: 0;
+}
+
+.fc2_container .fc2_sidebar{
+	width: 32%;
+	background-color: #fff;
+  color: #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  float: left;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.fc2_flag{
+	float: left;
+	margin-top: 3px;
+}
+
+.fc2_identity{
+  background-color: #002b41;
+	padding: 10px;
+  position: relative;
+}
+
+.fc2_client_info{
+	float: left;
+}
+
+.fc2_client_name{
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.fc2_client_mail{
+	font-size: 9px;
+	color: #136eb7;
+	margin-left: 10px;
+}
+
+.fc2_client_name .name{
+	text-transform: uppercase;
+}
+
+.fc2_client_company{
+	margin-top: 40px;
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.fc2_client_company .name{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.fc2_see_more{
+	color: #fff;
+	float: right;
+}
+
+.fc2_see_more:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.fc2_todo{
+	background-color: #275a8f;
+	padding: 10px;
+}
+
+.fc2_todo_title{
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 10px;
+  color: #fff;
+}
+
+.fc2_tag{
+	display: inline-block;
+	padding: 5px;
+	background-color: #012b41;
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+
+.fc2_tag:last-child{
+	margin-right: 0px;
+}
+
+.fc2_clubs li{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.fc2_clubs{
+  border-bottom: 0;
+  min-height: 100px;
+  background-color: #f8f8f8;
+}
+
+.fc2_club_name{
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.fc2_tabs li{
+	background-color: #f8f8f8;
+}
+
+
+.fc2_tabs li.active{
+	background-color: #ebeae5;
+}
+
+.fc2_tabs li.active a{
+  color: #275a91;
+}
+
+.fc2_tabs li a {
+	padding: 8px;
+	border: 0!important;
+	border-radius: 0;
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+.fc2_tabs li:hover{
+  background-color: #ebeae5;
+}
+
+.fc2_tabs li a:hover{
+  background-color: #ebeae5;
+}
+
+
+.fc2_stays{
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ccc;
+}
+
+.fc2_stays .row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.fc2_stays .col-xs-4{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.fc2_stays_number{
+  color: #444;
+  margin-top: 2px;
+}
+
+.fc2_title_buttons{
+  width: 300px;
+  float: right;
+  text-align: right;
+}
+
+.fc2_title_buttons button{
+  background-color: #02b7ec;
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+  font-size: 10px;
+  font-weight: 700;
+  height: 20px;
+}
+
+.fc2_title_buttons .fc2_styledSelect{
+  width: 100px;
+  height: 22px;
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.fc2_title_buttons .fc2_styledSelect select{
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.fc2_isMyHotel{
+  margin-top: 3px;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: #dff1fb;
+  color: #444;
+}
+
+.fc2_grades{
+  padding: 10px;
+  background-color: #fff;
+}
+
+.fc2_notif_cta i{
+  cursor: pointer;
+  margin: 0 3px;
+  padding:3px 2px;
+}
+
+.fc2_grade_name{
+  color: #444;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.fc2_tabpanel_content{
+  padding: 10px;
+  padding-top: 7px;
+}
+
+.fc2_grade_square{
+
+  margin-top: 5px;
+  text-align: center;
+}
+
+.fc2_grade_value{
+  border-radius: 4px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fc2_big_number{
+  font-size: 14px;
+  font-weight: bold;
+}
+.orange{
+  background-color: #fea000;
+}
+
+.green{
+  background-color: #4aaf4f;
+}
+
+.red{
+  background-color: #F44336;
+}
+
+.red-txt{
+  color: #F44336;
+}
+
+/* CONTENT */
+.fc2_content{
+  width: 68%;
+  float: left;
+  height: 100%;
+  overflow:auto;
+  overflow-x: hidden;
+}
+
+.fc2_content{
+  background-color: #eee;
+  padding: 10px;
+}
+
+.fc2_content_tabs{
+  background-color: #fff;
+  margin-left: 30%;
+}
+
+.fc2_content_tabs li{
+  display: inline-block;
+  width: 33%;
+  padding: 0;
+}
+
+.fc2_content_tabs li{
+  display: inline-block;
+  width: 33.3%;
+  padding: 0;
+}
+
+.fc2_content_tabs li.active{
+  border-bottom: 2px solid #012b41;
+}
+
+.fc2_content_tab a{
+    border: 0!important;
+    text-align: center;
+}
+
+.fc2_content_tab a:hover{
+  border-radius: 0;
+}
+
+.fc2_content_tabs li:first-child{
+  border-radius: 4px 4px 0 0;
+}
+.fc2_content_tabs li:last-child{
+  border-radius: 0 0 4px 4px;
+  margin-right: 0px;
+}
+
+.fc2_content_tabs li:last-child a{
+  margin-right: 0px;
+}
+
+/* COLLAPSE HEADER */
+.fc2_seeMore_content{
+
+}
+
+.fc2_seeMore_item{
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.fc2_seeMore_item .fc2_item_title, select{
+  cursor: pointer;
+}
+
+.fc2_seeMore_item .fc2_item_title h4{
+  font-size: 14px;
+  font-weight: 200;
+  color: #888;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fc2_item_info{
+  padding: 5px;
+}
+
+.fc2_item_headline{
+  color: #275a8f;
+}
+
+.fc2_item_subContent{
+  font-size: 11px;
+  color: #444;
+  width: 90px;
+}
+
+.fc2_badge_circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 40px;
+  background-color: #d3ae39;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+#item-4 .fc2_item_subContent{
+  display: inline-block;
+}
+/* MODAL */
+
+.fc2_subscriptionsPrimary{
+  background-color: #f6f6f6;
+  padding: 15px 10px;
+  border-radius: 3px;
+  height: 90px;
+}
+
+.fc2_inputItem{
+  margin-bottom: 30px;
+}
+
+.fc2_inputItem .col-sm-2{
+  padding-left: 0;
+  padding-right: 0;
+}
+.fc2_inputItem .col-sm-10{
+  padding-left: 0;
+}
+
+.fc2_inputItem label{
+  font-size: 12px;
+  font-weight: 200;
+  color: #888;
+}
+
+.fc2_inputItem select{
+  font-size: 12px;
+  font-weight: 200;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  color: #888;
+
+}
+
+.fc2_styledSelect {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 20px;
+
+    /*background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;*/
+}
+
+.fc2_styledSelect select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.fc2_styledSelect select:focus {
+    outline: none;
+}
+
+.fc2_setting_input{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fc2_setting_input input{
+  width: 13px;
+  height: 13px;
+  margi,: 0 auto;
+}
+
+.fc2_setting_input label{
+  font-size: 14px;
+  font-weight: 200;
+  color: #888;
+  margin-left: 20px;
+}
+
+/* SECTIONS */
+
+span.fc2_tag_name {
+    font-size: 9px;
+}
+
+.fc2_section_tab{
+
+}
+
+.fc2_section_title{
+  font-size: 14px;
+  font-weight: 200;
+  color: #444;
+  margin-top: 15px;
+}
+
+.fc2_section_booking{
+  margin-bottom: 5px;
+}
+
+.fa-star-yellow{
+  color: #e6a501;
+}
+
+.fc2_section_title span{
+  font-size: 14px;
+  color: #888;
+}
+
+.fc2_section_content{
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+.fc2_section_content.highlight{
+  background-color: #e9f8fd;
+}
+
+.fc2_section_content h4{
+  color: #666;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: -12px;
+}
+
+.fc2_section_content p{
+  color: #888;
+  font-size: 10px;
+}
+.fc2_pref{
+  border: 0;
+  padding :0;
+}
+.fc2_pref .col-sm-1,
+.fc2_pref .col-sm-10{
+  border: 0;
+  padding: 0;
+}
+.fc2_pref .fc2_preferences_item{
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.fc2_preferences_item_neg{
+  margin-top: -7px;
+}
+
+.fc2_preferences_item.highlight{
+    background-color: #e9f8fd;
+}
+
+.fc2_pref .fc2_preferences_item:first-child{
+  margin-top: 5px;
+}
+
+.fc2_pref .fc2_preferences_item .fc2_item_header{
+  display: inline-block
+}
+
+.fc2_pref .fc2_preferences_item .fc2_pref_badge{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: #032c42;
+  margin-top: 10px;
+}
+
+.fc2_pref_badge_smiley{
+  width: 37px;
+  height: 37px;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+.fc2_pref_badge_smiley.larger{
+  width: 39px;
+}
+
+
+
+.fc2_pref .fc2_preferences_item .fc2_pref_badge.gold{
+  background-color: #e6a501;
+}
+.fc2_pref_badge_smiley i{
+  top: 10px;
+  position: relative;
+}
+.show-hover .red{
+  background-color: transparent;
+  color: #F44336;
+  font-weight: bold;
+}
+
+
+.fc2_pref .fc2_preferences_item .fc2_pref_badge_smiley.gold{
+  background-color: #e6a501;
+}
+
+.fc2_pref .fc2_preferences_param{
+  margin-left: -10px;
+}
+
+.fc2_pref .fc2_preferences_item .fc2_preferences_param h4{
+  display: inline-block;
+  color: #222;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.fc2_icon_align{
+  width: 20px;
+  display: inline-block;
+}
+
+.fc2_custom_param{
+  padding-right: 0;
+}
+
+.fc2_pref_badge i{
+  line-height: 30px;
+}
+
+.fc2_preferences_param .fc2_pref_tag{
+  position: relative;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.fc2_preferences_param .fc2_pref_tag.first{
+  margin-left: 0px;
+}
+
+.icon-green{
+  color: #29ad61;
+}
+
+.icon-blue{
+  color: #265a93;
+}
+
+.icon-gold{
+  color: #e6a501;
+}
+
+.tag-highlight{
+  background-color: #e9f8fd;
+  border-radius: 2px;
+  padding: 5px;
+}
+.fc2_param_notif{
+  position: relative;
+}
+.fc2_param_notif .fc2_notif_cta{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.fc2_param_notif p{
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.fc2_param_notif p.expanded{
+  white-space: normal;
+}
+
+.fc2_param_footer{
+  margin-top: 5px;
+}
+
+.margin-neg{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.margin-neg .col-xs-3{
+  padding-right: 5px;
+  padding-left: 5px; 
+}
+
+/* ONGLET STAY */
+.fc2_stay_bloc {
+  background-color: #ffffff;
+  border : 1px #dddddd solid;
+  border-radius: 3px;
+  padding : 10px;
+  color : #4a4a4a;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.fc2_stay_bloc {
+  /*margin-bottom: 35px*/
+}
+.fc2_stay_bloc select {
+  border: none;
+  box-shadow: none;
+  width: 80%;
+  height: 19px;
+  padding: 0;
+}
+#fc2_pref h1, #fc2_stay h1 {
+  font-size : 13px;
+  color: #444444;
+  margin-bottom : 10px;
+  margin-top :10px;
+}
+.fc2_stay_bloc div.col-xs-3{
+  border-right : 1px solid #ccd5d9;
+  text-align: center;
+  text-align: center;
+}
+.fc2_stay_bloc .fc2_circle, .fc2_stay_bloc .fc2_stay_ellipse{
+  margin-top: 10px;
+  display:inline-block;
+  width : 100%;
+}
+.fc2_stay_bloc .fc2_stay_ellipse{
+  margin-left: 30px;
+  margin-top : 5px;
+  font-size: 11px
+}
+.fc2_stay_bloc strong{
+  font-size: 13px;
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3{
+  border-right : none;
+  text-align: center;
+}
+.fc2_stay_bloc div.col-xs-5{
+  border-radius:20px;
+  border : 1px solid #265a8f;
+  line-height: 20px;
+  color: #265a8f;
+  text-align: center;
+  margin-right : 15px;
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_bed, .fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_drink, .fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_food, .fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_swim {
+  width : 16px;
+  height : 16px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .c100 {
+  margin-left: 52px;
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_bed {
+  background-image: url("../../../assets/images//bed2.png");
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_drink {
+  background-image: url("../../../assets/images//hot drink.png");
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_food {
+  background-image: url("../../../assets/images//healthy-food.png");
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 .fc2_swim {
+  background-image: url("../../../assets/images//swimming.png");
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 div.fc2_circle_legend {
+  margin-top : 40px;
+}
+.fc2_stay_bloc .fc2_circle div.col-xs-3 div.fc2_circle_legend p {
+  color: #666;
+  text-transform: uppercase;
+}
+
+.fc2-details-info{
+  font-size: 10px;
+}
+table.fc2_stay_details {
+  font-size: 12px;
+  width: 100%;
+  border-spacing : 0 3px;
+  border-collapse : separate;
+  color : #333;
+}
+table.fc2_stay_details tr.fc2_last_stay td {
+  background-color: #d5dfe9;
+}
+
+li.fc2_last_stay{
+  background-color: #e9f8fd;
+}
+
+.fc2_circle_legend h4{
+  display: inline-block;
+  color: #222;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+  
+
+table.fc2_stay_details tr td {
+  background-color: #ffffff;
+  height : 50px;
+
+}
+table.fc2_stay_details tr td strong.fc2_main {
+  color: #242424;
+  font-size: 12px;
+}
+table.fc2_stay_details tr.fc2_cancelled td strong.fc2_main {
+  color : #898989;
+}
+div.fc2_stay_type.fc2_work {
+  height : 9px;
+  background-image: url("../../../assets/images//work.png");
+}
+div.fc2_stay_type.fc2_leisure {
+  height : 9px;
+  background-image: url("../../../assets/images//glasses.png");
+}
+div.fc2_people{
+  height: 17px;
+  width: 13px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/images//people.png");
+}
+div.fc2_alone{
+  height: 17px;
+  width: 13px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/images//alone.png");
+}
+div.fc2_hotel_logo {
+  width : 28px;
+  height : 28px;
+  display: block;
+  margin: auto;
+}
+div.fc2_hotel_logo.fc2_novotel {
+  background-image: url("../../../assets/images//novotel.png");
+}
+div.fc2_hotel_logo.fc2_ibis {
+  background-image: url("../../../assets/images//ibis.png");
+}
+div.fc2_hotel_logo.fc2_ibis_red {
+  background-image: url("../../../assets/images//ibis_red.png");
+}
+div.fc2_hotel_logo.fc2_ibis_cancelled {
+  background-image: url("../../../assets/images//ibis_cancelled.png");
+}
+div.fc2_hotel_logo.fc2_nobrand {
+  background-image: url("../../../assets/images//Picto_AccorHotel_01.jpg");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_nobrand_cancelled {
+  background-image: url("../../../assets/images//Picto_AccorHotel_01_nb.jpg");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_novotel_cancelled {
+  background-image: url("../../../assets/images//novotel_cancelled.png");
+}
+div.fc2_hotel_logo.fc2_sosofitel {
+  background-image: url("../../../assets/images//sosofitel.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_sosofitel-cancelled {
+  background-image: url("../../../assets/images//sosofitel-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_sofitel {
+  background-image: url("../../../assets/images//sofitel.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_sofitel-cancelled {
+  background-image: url("../../../assets/images//sofitel-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_sofitel-legend {
+  background-image: url("../../../assets/images//sofitel-legend.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_sofitel-legend-cancelled {
+  background-image: url("../../../assets/images//sofitel-legend-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_thalassa {
+  background-image: url("../../../assets/images//thalassa.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_thalassa-cancelled {
+  background-image: url("../../../assets/images//thalassa-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_thesebel {
+  background-image: url("../../../assets/images//thesebel.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_thesebel-cancelled {
+  background-image: url("../../../assets/images//thesebel.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_pullman {
+  background-image: url("../../../assets/images//pullman.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_pullman-cancelled {
+  background-image: url("../../../assets/images//pullman-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_mama-shelter {
+  background-image: url("../../../assets/images//mama-shelter.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_mama-shelter-cancelled {
+  background-image: url("../../../assets/images//mama-shelter-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_mercure {
+  background-image: url("../../../assets/images//mercure.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_mercure-cancelled {
+  background-image: url("../../../assets/images//mercure-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_magallery{
+  background-image: url("../../../assets/images//magallery.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_magallery-cancelled {
+  background-image: url("../../../assets/images//magallery.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_grandmercure{
+  background-image: url("../../../assets/images//grandmercure.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_grandmercure-cancelled {
+  background-image: url("../../../assets/images//grandmercure-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_hotelf1{
+  background-image: url("../../../assets/images//hotelf1.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_hotelf1-cancelled {
+  background-image: url("../../../assets/images//hotelf1-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_hotelf1{
+  background-image: url("../../../assets/images//hotelf1.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_hotelf1-cancelled {
+  background-image: url("../../../assets/images//hotelf1-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_adagio-apparthotel{
+  background-image: url("../../../assets/images//adagio-apparthotel.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_adagio-apparthotel-cancelled {
+  background-image: url("../../../assets/images//adagio-apparthotel-grey.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_adagio-premium{
+  background-image: url("../../../assets/images//adagio-premium.png");
+      background-repeat: no-repeat;
+}
+div.fc2_hotel_logo.fc2_adagio-premium-cancelled {
+  background-image: url("../../../assets/images//adagio-premium-grey.png");
+      background-repeat: no-repeat;
+}
+a.fc2_stay_type {
+  width : 16px;
+  height : 16px;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  background-position: left-center;
+  display: inline-block;
+  color : #898989;
+  padding-left: 12px;
+  text-decoration: none;
+  width : 100px;
+}
+div.fc2_stay_type {
+  width : 16px;
+  height : 16px;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  background-position: left-center;
+  display: inline-block;
+}
+a.fc2_stay_type.fc2_valid {
+  background-image: url("../../../assets/images//valid_inactive.png");
+  background-position: right-center;
+}
+a.fc2_stay_type.fc2_work {
+  background-image: url("../../../assets/images//work_inactive.png");
+}
+a.fc2_stay_type.fc2_leisure {
+  background-image: url("../../../assets/images//glasses_inactive.png");
+}
+a.fc2_stay_type.fc2_valid:hover, a.fc2_stay_type.fc2_valid:focus, a.fc2_stay_type.fc2_valid:active, a.fc2_stay_type.fc2_valid.active {
+  background-image: url("../../../assets/images//valid_active.png");
+  background-position: right-center;
+}
+a.fc2_stay_type.fc2_work:hover, a.fc2_stay_type.fc2_work:focus, a.fc2_stay_type.fc2_work:active, a.fc2_stay_type.fc2_work.active {
+  background-image: url("../../../assets/images//work_active.png");
+}
+a.fc2_stay_type.fc2_leisure:hover, a.fc2_stay_type.fc2_leisure:focus, a.fc2_stay_type.fc2_leisure:active, a.fc2_stay_type.fc2_leisure.active {
+  background-image: url("../../../assets/images//glasses_active.png");
+}
+div.fc2_hotel_logo.fc2_novotel {
+  background-image: url("../../../assets/images//novotel.png");
+}
+input[type="checkbox"] {
+  border : 1px solid #265a8f;
+  margin: 0px;
+}
+.form-horizontal {
+  font-size: 11px;
+  padding-left : 36px;
+}
+.fc2_subscription_header {
+  width : 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  margin-top : 10px;
+}
+.fc2_subscritption_header_checkbox {
+  width : 180px;
+  display: inline-block;
+}
+.fc2_subscritption_header_label {
+  width : 180px;
+  height : 50px;
+  background-color: #f6f6f6;
+  display: inline-block;
+  padding : 12px;
+}
+.input-group-addon {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left : none;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center;
+}
+.tooltip-inner{
+  max-width: 1000px;
+}
+.input-group-addon a {
+    color: #555;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.table-wrapper{
+  height: 285px;
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+.styled-select{
+  border: 1px solid #ccc!important;
+  padding:5px;
+  border-radius: 50px;
+}
+
+.styled-select.tiny{
+  height: 20px;
+  padding: 0px 10px;
+  font-size: 11px;
+}
+.custom-button{
+  margin-right: 10px;
+}
+
+.carousel-indicators{
+  position: absolute;
+  /*right: 0;*/
+  left: calc(100% - 40px);
+  /*left: initial;*/
+  margin: 0;
+  padding: 0;
+  top: 7px;
+  width: 40px;
+}
+
+.carousel {
+    position: relative;
+    padding: 3px 0;
+}
+
+.bold{
+  font-weight: bold;
+}
+.carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  margin: 0;
+}
+.carousel-indicators .active{
+  width: 8px;
+  height: 8px;
+}
+
+.fc2_stay_type.active{
+  font-weight: bold;
+  color: #333;
+}
+
+.fc2_cancelled{
+  color: #999;
+}
+.glyph-grey{
+  color: #999!important;
+}
+
+.fc2_pref_notif{
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  text-transform: uppercase;
+  color: #275a91;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+h5{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.fc2_grade_text .fc2_grade_value{
+  position: relative;
+  top: -5px;
+}
+
+.tag {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #999;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  display: inline-block;
+}
+
+.tag:first-child {
+    margin-left: 0;
+}
+
+.tag.tag-light {
+    background-color: #00b8ec;
+}
+
+.tag.tag-green{
+    background-color: #4aaf4f;
+}
+
+.tag.tag-blue{
+  background-color: #002b41;
+}
+
+.tag.tag-red{
+  background-color: #F44336;
+}
+
+.row.fc2_border{
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.fc2_satisfaction_row{
+  padding: 2px 0;
+  border: 1px solid transparent;
+}
+
+div.fc2_coeur {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url("../../../assets/images//coeur.png");
+}
+
+.fc2_satisfaction_row .col-xs-3{
+  padding-left: 3px;
+}
+
+.fc2_preferences_item.fc2_inner_sati{
+  border: 0;
+      padding: 0;
+}
+
+.fc2_grade_warning i{
+  position: relative;
+  top: 8px;
+}
+
+.fc2_grade_warning .fc2_grade_value{
+  width: 25px;
+  height: 25px;
+}
+
+.fc2_pref .fc2_preferences_item.fc2_inner_sati h4{
+  color: #666;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: -12px;
+  margin-top: 15px;
+}
+
+
+.fc2_preferences_param h5{
+  margin-bottom: 5px;
+}
+
+.fc2_nopadleft{
+  padding-left: 0;
+}
+
+.js-search-collapse select{
+  border-radius: 30px;
+  font-size: 12px;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+textarea.form-control{
+  font-size: 12px;
+}
+
+.search-satis{
+  border:none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.wrapper-search{
+  position: relative;
+}
+
+.wrapper-search i{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.wrapper-search input{
+  padding-right: 15px;
+  font-size: 12px;
+  padding-left: 0;
+}
+
+.media-left{
+  display: table-cell;
+vertical-align: top;
+padding-right: 10px;
+}
+
+.media-body{
+  display: table-cell;
+vertical-align: top;
+width: 10000px;
+}
+
+.client-satisfaction{
+  color: #ccc;
+  background-color: transparent;
+}
+
+.client-satisfaction.green{
+  color: #4aaf4f;
+}
+
+.client-satisfaction.red{
+  color: #F44336;
+}
+
+.client-satisfaction.yellow{
+  color: #FFA000;
+}
+
+.styled-select{
+  border-radius: 30px;
+  font-size: 12px;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.fc2_border-top{
+  border-top: 1px solid #ccc;
+}
+
+/*
+
+.fc2_grade_text .fc2_text_grade{
+  float: left;
+  position: relative;
+  top: 6px;
+  left: 5px;
+}*/
+
+.fc2_the_pref .fc2_pref_badge{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fc2_the_pref .fc2_pref_badge i{
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.fc2_grade_square_big{
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  margin-bottom: 2px;
+}
+
+
+.fc2_seemore, .nav-tabs li{
+  cursor: pointer;
+}
+
+.no-border{
+  border: none!important;
+}
+
+.fc2_progress-bar-container{
+  width: 100%;
+  padding: 5px;
+  position: relative;
+  margin-top: 0px;
+  color: #333;
+}
+
+.fc2_progress-bar-container strong.blue{
+  color: #275a8f;
+}
+
+.fc2_progress-bar{
+  width: 100%; 
+  background-color: #ccc;
+  height: 2px;
+  position: relative;
+}
+
+.fc2_progress{
+  width: 80%; 
+  background-color: #275a8f;
+  height: 2px;
+  position: relative;
+}
+
+.progress-dot{
+  position: absolute;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #275a8f;
+  top: -2px;
+}
+
+.plat-dot{
+  position: absolute;
+  right: 20px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #999;
+  top: -2px;
+}
+
+.text-dot{
+  width: 200px;
+  position: relative;
+  right: 160px;
+  bottom: 55px;
+  text-align: right;
+}
+
+.client_card{
+  width: 100%;
+}
+
+.client_card_container{
+  color: #333;
+}
+
+.client_card_container strong{
+  font-size: 12px;
+}
+
+.add-comment{
+  position: absolute;
+  right: 15px;
+  z-index: 2;
+}
+
+.fc2_client_mail{
+  cursor: pointer;
+  color: #02b7ec;
+  font-size: 12px;
+}
+
+.fc2_client_mail:hover i{
+  opacity: 1;
+}
+
+.fc2_client_mail i{
+  opacity: 0;
+}
+
+.fc2_circle .col-xs-3{
+  width: 33%;
+}
+
+.fc2_see_more:hover, .fc2_see_more:focus{
+  color: #fff;
+  text-decoration: none;
+}
+
+.fc2_see_more.nofloat{
+  display: block;
+  text-align: right;
+  position: absolute;
+  top: 50px; 
+  right: 10px;
+}
+
+.fc2_item_subContent i{
+  color: #275a8f;
+}
+
+.choice-pref{
+  border: 1px solid #ccc;
+  color: #999;
+  font-size: 12px;
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.choice-pref-active, .choice-pref:hover{
+  border-color: #275a8f;
+  color: #275a8f;
+  background-color: #d9ebff;
+}
+
+.modal-smoking{
+  font-size: 12px;
+}
+
+.pref-add-fav input{
+  position: relative;
+  margin-left: 15px;
+  top: 2px;
+  font-size: 12px;
+}
+
+.pref-add-fav .fa{
+  font-size: 16px;
+}
+
+#fc2_subscription_modal input[type="checkbox"]{
+  position: relative;
+  top: 3px;
+  right: 5px;
+}
+
+.see-less-satisfaction-1, .see-less-satisfaction-2{
+  margin:10px 0;
+}
+
+.title-4{
+  margin-left: 0!important;
+}
+
+.full-screen{
+  width: 100%;
+  height: 100%;
+}
+
+.fc2_pref_tag i.fa-pencil{
+  opacity: 0;
+}
+
+.fc2-pref-tag:hover i.fa-pencil{
+  opacity: 1;
+}
+
+.fc2_satisfaction_row .col-xs-9{
+  padding-left: 0px;
+}
+
+.fc2_inner_sati .fc2_satisfaction_row .col-xs-9{
+  padding-left: 5px;
+}
+
+.opacity-pencil{
+  opacity: 1!important;
+}
+
+.fc2_stay_details tr td:nth-child(3){
+  width: 100px;
+}
+
+.fc2_badge_circle.fc2_pref_badge.gold{
+  background-color: #e6a501;
+}
+
+.no-p-left{
+  padding-left: 0!important;
+}
+
+.fc2_sat_row_padding-l{
+  padding-left:  10px;
+  position: relative;
+  top: 3px;
+}
+/*.fc2_satisfaction_row .no-p-right.p-custom-left{
+  padding-left: 23px;
+}*/
+
+.list-group-item{
+  font-size: 12px;
+  /*padding: 10px 0px;*/
+}
+
+.carousel{
+  padding: 0;
+}
+
+.carousel-controls{
+  padding: 8px 0;
+  background-color: #fff;
+  color: #666;
+}
+
+.tooltip-inner{
+  background-color: #002b41;  
+}
+
+.tooltip.bottom .tooltip-arrow{
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #002b41;
+  border-width: 0 5px 5px;
+}

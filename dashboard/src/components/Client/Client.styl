@@ -1,0 +1,227 @@
+// Imports main css rules and css variables
+@import '../../assets/css/main'
+@import '../../assets/css/variables'
+.wrapper
+  height 100vh
+  width 100%
+  background-color white
+
+.client-identity
+  background-color black
+  padding 30px
+  width 30%
+
+  h1
+    color $alto
+
+  h3
+    color $cerulean
+
+  p
+    color $alto
+
+  img
+    width 80px
+    position fixed
+
+@-webkit-keyframes spinning-circle
+  0%
+    -webkit-transform rotate(0deg)
+    transform rotate(0deg)
+    -webkit-transform-origin 125% 125%
+    transform-origin 125% 125%
+
+  100%
+    -webkit-transform rotate(360deg)
+    transform rotate(360deg)
+    -webkit-transform-origin 125% 125%
+    transform-origin 125% 125%
+
+body
+  font-family Lato
+
+#fa-comportement
+  border 3px solid $behavior
+  color $gray-gray
+  width 1.8em
+  background-color #EEE
+  height 1.8em
+  text-align center
+  padding 4px
+  border-radius 50%
+  &:hover
+    cursor pointer
+
+#fa-influence
+  border 3px solid $influence
+  color $gray-gray
+  width 1.8em
+  background-color #EEE
+  height 1.8em
+  text-align center
+  padding 4px
+  border-radius 50%;
+  &:hover
+    cursor pointer
+  &:active
+    background-color #D7DADA
+
+#fa-potential
+  border 3px solid $potential
+  color $gray-gray
+  width 1.8em
+  background-color #EEE
+  height 1.8em
+  text-align center
+  padding 4px
+  border-radius 50%
+  &:hover
+    cursor pointer
+
+.valueProposition
+  background-color #FFF
+  padding 15px
+  .row
+  h3
+    text-align left
+    margin-top 0px
+    margin-bottom 0px
+    .col-sm-4
+      display inline-flex
+      p
+        font-size 1.2em
+        text-align left
+  small
+    margin-top 3px
+    margin-bottom 10px
+    display block
+    font-size 100%
+    color $orange-flame-pea
+h4
+  text-align center
+
+.canvas-container
+  width 200px
+  position relative
+  margin auto
+
+  .chart-score
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    margin-bottom 0
+    color #626262
+    font-size 50px
+    font-weight 900
+
+
+.bannerChartGlobal
+  display block
+
+#influenceBanner
+  border-left 5px solid $influence
+
+#comportementBanner
+  border-left 5px solid $behavior
+  ul
+    float left
+    padding 10px
+    li
+      margin-top 10px
+      font-size 1.3em
+      font-weight 600
+      color $gray-gray
+      display -webkit-box
+
+#potentielBanner
+  border-left 5px solid $potential
+  ul
+    float left
+    padding 10px
+    li
+      margin-top 10px
+      font-size 1.3em
+      font-weight 600
+      color $gray-gray
+      display -webkit-box
+
+.error
+  color red
+
+p
+  letter-spacing 1px
+  text-align center
+  padding 8px
+  font-size 1em
+
+.topics
+  background-color $influence
+  padding 5px
+  margin 3px
+  display inline-block
+  color #000
+  border-radius 5px
+
+.card-block
+  padding 10px
+  background-color $white
+  border 2px solid $blue-pacific
+  a
+    color $blue-pacific
+    background-color $white-alabaster
+    font-size 14px
+    cursor pointer
+    padding 5px
+textarea
+  max-width 100%
+  width 100%
+  border none
+  font-size 16px !important
+
+
+div >
+  button
+    display block
+    width 100%
+    margin 0 auto
+    box-sizing border-box
+    border none
+    color white
+    background-color $blue-pacific
+    text-transform uppercase
+    font-size 20px
+    &:active
+      background-color $blue-pacific-active
+      opacity 1
+      transition 0s
+ul
+  margin auto
+  text-align center
+  li
+    font-size 1.6em
+    padding-bottom 5px
+    text-align center
+    color #000
+    p
+      padding-top 0px
+      text-align left
+    .fa
+      border 4px solid #dadada
+      color $gray-gray
+      background-color #eee
+      text-align center
+      padding 9px
+      border-radius 50%
+
+.valueProposition
+  ul
+    li
+      display inline-block
+      padding 5px 15px
+.main
+  background-color #FFFFFF
+
+h3
+  text-align center
+  text-transform capitalize

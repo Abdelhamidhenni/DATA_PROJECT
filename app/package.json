@@ -1,0 +1,20 @@
+{
+  "name": "accor_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.5.0",
+    "debug": "~2.6.0",
+    "faker": "^4.1.0",
+    "hapi": "~16.1.0",
+    "joi": "~10.2.0",
+    "jsonp": "^0.2.1",
+    "lower-case": "^1.1.4",
+    "mysql": "^2.13.0",
+    "node-impala": "~2.0.1"
+  },
+  "scripts": {
+    "start": "DEBUG=accor:* node index"
+  }
+}
